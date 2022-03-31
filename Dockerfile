@@ -237,9 +237,3 @@ FROM bitnami/golang:1.16.14-debian-10-r17
 
 # Tags: 1.17.7-debian-10-r17
 FROM bitnami/golang:1.17.7-debian-10-r17
-
-# Tags: 1.16.14-debian-10-r16
-FROM bitnami/golang:1.16.14-debian-10-r16
-
-# Tags: 1.17.7-debian-10-r16
-FROM bitnami/golang:1.17.7-debian-10-r16
