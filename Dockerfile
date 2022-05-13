@@ -1,18 +1,86 @@
-# Tags: latest, 1.18.1-debian-10-r20, 1.18.1, 1.18-debian-10, 1.18
+# Tags: latest, 1.18.2-debian-10-r2, 1.18.2, 1.18-debian-10, 1.18
 FROM bitnami/golang:latest
-FROM bitnami/golang:1.18.1-debian-10-r20
-FROM bitnami/golang:1.18.1
+FROM bitnami/golang:1.18.2-debian-10-r2
+FROM bitnami/golang:1.18.2
 FROM bitnami/golang:1.18-debian-10
 FROM bitnami/golang:1.18
 
-# Tags: 1.17.9-debian-10-r20, 1.17.9, 1.17-debian-10, 1.17
-FROM bitnami/golang:1.17.9-debian-10-r20
-FROM bitnami/golang:1.17.9
+# Tags: 1.17.10-debian-10-r2, 1.17.10, 1.17-debian-10, 1.17
+FROM bitnami/golang:1.17.10-debian-10-r2
+FROM bitnami/golang:1.17.10
 FROM bitnami/golang:1.17-debian-10
 FROM bitnami/golang:1.17
 
 # Tags: _
 FROM bitnami/golang:_
+
+# Tags: 1.17.10-debian-10-r1
+FROM bitnami/golang:1.17.10-debian-10-r1
+
+# Tags: 1.18.2-debian-10-r1
+FROM bitnami/golang:1.18.2-debian-10-r1
+
+# Tags: 1.17.10-debian-10-r0
+FROM bitnami/golang:1.17.10-debian-10-r0
+
+# Tags: 1.18.2-debian-10-r0
+FROM bitnami/golang:1.18.2-debian-10-r0
+
+# Tags: 1.17.9-debian-10-r28, 1.17.9
+FROM bitnami/golang:1.17.9-debian-10-r28
+FROM bitnami/golang:1.17.9
+
+# Tags: 1.18.1-debian-10-r28, 1.18.1
+FROM bitnami/golang:1.18.1-debian-10-r28
+FROM bitnami/golang:1.18.1
+
+# Tags: 1.17.9-debian-10-r27
+FROM bitnami/golang:1.17.9-debian-10-r27
+
+# Tags: 1.18.1-debian-10-r27
+FROM bitnami/golang:1.18.1-debian-10-r27
+
+# Tags: 1.17.9-debian-10-r26
+FROM bitnami/golang:1.17.9-debian-10-r26
+
+# Tags: 1.18.1-debian-10-r26
+FROM bitnami/golang:1.18.1-debian-10-r26
+
+# Tags: 1.17.9-debian-10-r25
+FROM bitnami/golang:1.17.9-debian-10-r25
+
+# Tags: 1.18.1-debian-10-r25
+FROM bitnami/golang:1.18.1-debian-10-r25
+
+# Tags: 1.17.9-debian-10-r24
+FROM bitnami/golang:1.17.9-debian-10-r24
+
+# Tags: 1.18.1-debian-10-r24
+FROM bitnami/golang:1.18.1-debian-10-r24
+
+# Tags: 1.17.9-debian-10-r23
+FROM bitnami/golang:1.17.9-debian-10-r23
+
+# Tags: 1.18.1-debian-10-r23
+FROM bitnami/golang:1.18.1-debian-10-r23
+
+# Tags: 1.17.9-debian-10-r22
+FROM bitnami/golang:1.17.9-debian-10-r22
+
+# Tags: 1.18.1-debian-10-r22
+FROM bitnami/golang:1.18.1-debian-10-r22
+
+# Tags: 1.17.9-debian-10-r21
+FROM bitnami/golang:1.17.9-debian-10-r21
+
+# Tags: 1.18.1-debian-10-r21
+FROM bitnami/golang:1.18.1-debian-10-r21
+
+# Tags: 1.17.9-debian-10-r20
+FROM bitnami/golang:1.17.9-debian-10-r20
+
+# Tags: 1.18.1-debian-10-r20
+FROM bitnami/golang:1.18.1-debian-10-r20
 
 # Tags: 1.17.9-debian-10-r19
 FROM bitnami/golang:1.17.9-debian-10-r19
@@ -148,101 +216,3 @@ FROM bitnami/golang:1.17.9-debian-10-r1
 
 # Tags: 1.16.15-debian-10-r40
 FROM bitnami/golang:1.16.15-debian-10-r40
-
-# Tags: 1.18.1-debian-10-r0
-FROM bitnami/golang:1.18.1-debian-10-r0
-
-# Tags: 1.17.9-debian-10-r0
-FROM bitnami/golang:1.17.9-debian-10-r0
-
-# Tags: 1.16.15-debian-10-r39
-FROM bitnami/golang:1.16.15-debian-10-r39
-
-# Tags: 1.17.8-debian-10-r39, 1.17.8
-FROM bitnami/golang:1.17.8-debian-10-r39
-FROM bitnami/golang:1.17.8
-
-# Tags: 1.18.0-debian-10-r26, 1.18.0
-FROM bitnami/golang:1.18.0-debian-10-r26
-FROM bitnami/golang:1.18.0
-
-# Tags: 1.16.15-debian-10-r38
-FROM bitnami/golang:1.16.15-debian-10-r38
-
-# Tags: 1.17.8-debian-10-r38
-FROM bitnami/golang:1.17.8-debian-10-r38
-
-# Tags: 1.18.0-debian-10-r25
-FROM bitnami/golang:1.18.0-debian-10-r25
-
-# Tags: 1.16.15-debian-10-r37
-FROM bitnami/golang:1.16.15-debian-10-r37
-
-# Tags: 1.17.8-debian-10-r37
-FROM bitnami/golang:1.17.8-debian-10-r37
-
-# Tags: 1.18.0-debian-10-r24
-FROM bitnami/golang:1.18.0-debian-10-r24
-
-# Tags: 1.16.15-debian-10-r36
-FROM bitnami/golang:1.16.15-debian-10-r36
-
-# Tags: 1.17.8-debian-10-r36
-FROM bitnami/golang:1.17.8-debian-10-r36
-
-# Tags: 1.18.0-debian-10-r23
-FROM bitnami/golang:1.18.0-debian-10-r23
-
-# Tags: 1.16.15-debian-10-r35
-FROM bitnami/golang:1.16.15-debian-10-r35
-
-# Tags: 1.17.8-debian-10-r35
-FROM bitnami/golang:1.17.8-debian-10-r35
-
-# Tags: 1.18.0-debian-10-r22
-FROM bitnami/golang:1.18.0-debian-10-r22
-
-# Tags: 1.16.15-debian-10-r34
-FROM bitnami/golang:1.16.15-debian-10-r34
-
-# Tags: 1.17.8-debian-10-r34
-FROM bitnami/golang:1.17.8-debian-10-r34
-
-# Tags: 1.18.0-debian-10-r21
-FROM bitnami/golang:1.18.0-debian-10-r21
-
-# Tags: 1.16.15-debian-10-r33
-FROM bitnami/golang:1.16.15-debian-10-r33
-
-# Tags: 1.17.8-debian-10-r33
-FROM bitnami/golang:1.17.8-debian-10-r33
-
-# Tags: 1.18.0-debian-10-r20
-FROM bitnami/golang:1.18.0-debian-10-r20
-
-# Tags: 1.16.15-debian-10-r32
-FROM bitnami/golang:1.16.15-debian-10-r32
-
-# Tags: 1.17.8-debian-10-r32
-FROM bitnami/golang:1.17.8-debian-10-r32
-
-# Tags: 1.18.0-debian-10-r19
-FROM bitnami/golang:1.18.0-debian-10-r19
-
-# Tags: 1.16.15-debian-10-r31
-FROM bitnami/golang:1.16.15-debian-10-r31
-
-# Tags: 1.17.8-debian-10-r31
-FROM bitnami/golang:1.17.8-debian-10-r31
-
-# Tags: 1.18.0-debian-10-r18
-FROM bitnami/golang:1.18.0-debian-10-r18
-
-# Tags: 1.16.15-debian-10-r30
-FROM bitnami/golang:1.16.15-debian-10-r30
-
-# Tags: 1.17.8-debian-10-r30
-FROM bitnami/golang:1.17.8-debian-10-r30
-
-# Tags: 1.18.0-debian-10-r17
-FROM bitnami/golang:1.18.0-debian-10-r17
